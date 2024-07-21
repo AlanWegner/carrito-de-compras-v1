@@ -17,8 +17,10 @@
     <script src="./js/app.js" defer></script>
 </head>
 <body>
+    <!-- card 3 -->
     <main class="container mt-5">
         <div class="row text-center">
+            <!-- card Frutilla 🍓 -->
             <article class="col-sm-4 mb-3">
                 <div class="card">
                     <div class="card-body">
@@ -27,6 +29,7 @@
                     </div>
                 </div>
             </article>
+            <!-- card Limón 🍋 -->
             <article class="col-sm-4 mb-3">
                 <div class="card">
                     <div class="card-body">
@@ -35,6 +38,7 @@
                     </div>
                 </div>
             </article>
+            <!-- card Banana 🍌 -->
             <article class="col-sm-4 mb-3">
                 <div class="card">
                     <div class="card-body">
@@ -44,13 +48,22 @@
                 </div>
             </article>
 
-            <section class="container mt-3">
-                <ul id="carrito" class="border ps-0">
-
-                </ul>
-            </section>
         </div>
     </main>
     
+    <!-- contenedor -->
+    <section class="container mt-3">
+        <ul id="carrito" class="border ps-0">
+        <!-- aqui irian los template -->
+        </ul>
+    </section>
+
+    <!-- plantilla -->
+    <template id="template">
+        <li class="p-2 w-100 list-group-item d-flex justify-content-between align-item-center">
+            <span class="lead">Fruta</span>
+            <span class="badge bg-primary rounded-pill">1</span>
+        </li>
+    </template>
 </body>
 </html>
